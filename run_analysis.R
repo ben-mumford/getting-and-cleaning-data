@@ -44,5 +44,5 @@ data <- subset(data, select=-activity.id)
 data.melted <- melt(data, id=c('activity.name', 'subject.id'))
 data.tidy <- dcast(data.melted, activity.name + subject.id ~ variable, mean)
 
-# Write the file out as a .csv
-write.csv(data.tidy, file = "tidy.data.csv", row.names=FALSE)
+# Write the file out as a .txt
+write.table(data.tidy, file = "tidy.data.txt", row.names=FALSE)

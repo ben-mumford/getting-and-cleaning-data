@@ -1,6 +1,6 @@
 # Code Book
 
-This file is a summary of the output of run_Analysis.R and example of which is located in this repo - tidy.data.csv.
+This file is a summary of the output of run_Analysis.R and example of which is located in this repo - tidy.data.txt.
 
 ## Identity Columns
 

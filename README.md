@@ -14,5 +14,5 @@ The run_analysis.R script performs the following steps:
 * Loads the training and test files and combines them (note only the columns relating to mean and std are loaded from the X_train.txt and X_test.txt files).
 * Merges the activity and combined training and test data into a single data table.
 * Creates a tidy data set with the average of each variable for each activity and each subject.
-* Writes the tidy data to file in csv format (an example of which is checked in as "tidy.data.csv"
+* Writes the tidy data to file in txt format (an example of which is checked in as "tidy.data.txt"
 
