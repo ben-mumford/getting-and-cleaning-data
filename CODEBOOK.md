@@ -15,6 +15,8 @@ This file is a summary of the output of run_Analysis.R and example of which is l
 
 ## Measurement Columns
 
+For each of the following measurements, the mean was calculated for all observations for each activity and subject.
+
 * tbodyacc.mean.x
 * tbodyacc.mean.y
 * tbodyacc.mean.z
